@@ -3,7 +3,7 @@
 
 ## Links
 - [GitHub URL](https://github.com/sukanyagurav/Coffee-listing-page)
-- [Live URL ](https://cryptoverse5867.netlify.app/)
+- [Live URL ](https://coffeelisting5867.netlify.app/)
 
 
 | Coffee Listing desktop view                                          |  Mobile View                                                       |
