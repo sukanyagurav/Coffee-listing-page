@@ -8,7 +8,7 @@
 
 | Coffee Listing desktop view                                          |  Mobile View                                                       |
 | ----------------------                                               | ----------------------                                             |
-| <img src="/public/desktop preview.png" width="100%" height="400" />  | <img src="/public/mobile preview.png" width="100%" height="400" /> |
+| <img src="/public/desktop preview.png" width="100%" height="400" />  | <img src="/public/mobile preview.png" width="400" height="400" /> |
 
 ## Overview 
  
@@ -17,11 +17,10 @@ Users should be able to -
 - Users can opt to view either all products or only those that are available.
 
 ## Tech stack used
-<div align="center">
-<img src=https://tse2.mm.bing.net/th?id=OIP.TePXeR-MMPbB7WtrtheWxwHaD4&pid=Api&P=0&w=300&h=300 alt=react style="margin-bottom: 5px;" />
-</a>
-
-
+- React 
+- Framer motion
+- Custom hook
+- Tailwindcss
 
 ## Available Scripts
 
