@@ -8,7 +8,7 @@
 
 | Coffee Listing desktop view                                          |  Mobile View                                                       |
 | ----------------------                                               | ----------------------                                             |
-| <img src="/public/desktop preview.png" width="100%" height="400" />  | <img src="/public/mobile preview.png" width="400" height="400" /> |
+| <img src="/public/desktop preview.png" width="100%" height="400" />  | <img src="/public/mobile preview.png" width="100%" height="400" /> |
 
 ## Overview 
  
