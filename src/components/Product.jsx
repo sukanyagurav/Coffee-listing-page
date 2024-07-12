@@ -9,14 +9,14 @@ const Product = (props) => {
         hidden:{opacity:0,y:30},
         visible:{opacity:1,y:0}
       }}
-     
+      className='relative'
      >
     
        <div className={`w-[260px] h-[160px] rounded-lg bg-gray-500 ${imageLoad ? 'block' : 'hidden'} `}/>
      
        <img src={image} alt={name} className={`rounded-lg shadow-[0px_22px_70px_4px_rgba(0,0,0,0.56)] product_img ${imageLoad ? 'hidden' : 'block'}`} onLoad={()=>setImageLoad(false)} />  
       
-     
+     { popular &&  <span className='absolute top-1.5 p-3 left-2 py-1 bg-[#ED735D] font-semibold text-white rounded-lg' >Popular</span>}
       <div className="flex_row mt-4 mb-1 justify-between">
         <h2 className='text-white font-semibold text-md' >{name}</h2>
         <span className='p-2 py-[3px] font-bold text-[#1B1D1F] bg-[#BEE3CC] rounded-lg'>{price}</span>
