@@ -1,6 +1,15 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { motion } from "framer-motion"
-const Product = (props) => {
+interface ProductProps{
+  name:string;
+  image:string,
+  price:string,
+  rating:number,
+  votes:number,
+  popular:boolean,
+  available:boolean
+}
+const Product = (props:ProductProps) => {
   const {available,image,name,popular,price,votes,rating} = props
   const [imageLoad,setImageLoad] = useState(true)
   return (
@@ -9,7 +18,8 @@ const Product = (props) => {
         hidden:{opacity:0,y:30},
         visible:{opacity:1,y:0}
       }}
-      className='relative'
+      className='relative coffee-card'
+     
      >
     
        <div className={`w-[260px] h-[160px] rounded-lg bg-gray-500 ${imageLoad ? 'block' : 'hidden'} `}/>
