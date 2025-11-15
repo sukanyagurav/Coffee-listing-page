@@ -48,7 +48,7 @@ test.describe('Coffee filtering test', () => {
       });
     });
 
-    await page.goto('http://localhost:5173/');
+    await page.goto('https://coffeelisting5867.netlify.app/');
   });
   test('All products tab shows all coffees', async ({ page }) => {
     const allProductBtn = page.locator('button', { hasText: 'All products' });

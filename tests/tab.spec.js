@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('checking tabs', () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:5173/');
+    await page.goto('https://coffeelisting5867.netlify.app/');
   });
   test('have 2 buttons', async ({ page }) => {
     const tabButtons = page.locator('#tabs button');
