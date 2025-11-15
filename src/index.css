@@ -29,6 +29,9 @@ body::before{
   content: '';
   
 }
+.activeBtn{
+  @apply bg-[#6F757C];
+}
 .main{
   @apply bg-[#1B1D1F] rounded-lg p-10 absolute top-40 left-2 right-2 md:left-20 md:right-20;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
